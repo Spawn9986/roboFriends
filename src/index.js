@@ -8,7 +8,7 @@ import 'tachyons'; // when importing from dependencies
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <Hello />
+  <Hello greeting={'Hello' + 'React Ninja'}/>
 );
 
 
