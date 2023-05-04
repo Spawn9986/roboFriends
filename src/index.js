@@ -8,7 +8,11 @@ import 'tachyons'; // when importing from dependencies
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <Card />
+  <div>
+    <Card />
+    <Card />
+    <Card />
+  </div>
 );
 
 
